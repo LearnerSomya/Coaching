@@ -1,3 +1,4 @@
+// count of character that are in longest substring
 import java.io.*;
 import java.util.*;
 class LongestSubstringWithoutRepeatingCharacter {
