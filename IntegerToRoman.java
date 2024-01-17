@@ -10,7 +10,7 @@ class IntegerToRoman {
         System.out.println(intToRoman(num));
     }
     
-    public static String intToRoman(int num){
+    static String intToRoman(int num){
         StringBuilder sbval = new StringBuilder();
 
         //this line will handle the value that are more 1000s as in question we are givven that values will be till 3999, so 
