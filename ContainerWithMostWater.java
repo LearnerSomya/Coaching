@@ -25,6 +25,7 @@ class ContainerWithMostWater {
             int rightValue = height[rightCorner];
 
             int AreaIs = Math.min(leftValue, rightValue) * (rightCorner - leftCorner);
+            //Math.min(leftValue, rightValue) is for finding height and (rightCorner - leftCorner) is for findng width
             //here we are comparing result with AreaIs and finding maximum from them
             result = Math.max(result, AreaIs);
 
