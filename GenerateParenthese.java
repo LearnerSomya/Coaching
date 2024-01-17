@@ -8,7 +8,8 @@ class GenerateParenthese {
         System.out.println(GeneratingParanthese(numberOfPairs));
 
     }
-    static List<String> GeneratingParanthese(int numOfPair){
+    @SuppressWarnings("unchecked")
+    public static List<String> GeneratingParanthese(int numOfPair){
         List<String>[] ResultDP = new List[numOfPair + 1];
         ResultDP[0] = Arrays.asList(""); //empty as 0 will give empty 
         ResultDP[1] = Arrays.asList("()"); // for 1 it will generate on pair type 
