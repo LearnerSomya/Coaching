@@ -19,8 +19,8 @@ class PalindromNumber {
         long answer = 0;
         while(num != 0){
             
-            remainder = num % 10; // it will give questiont
-            num = num / 10;
+            remainder = num % 10; // it wil give remainder
+            num = num / 10; // it will give questiont
             answer = answer * 10 + remainder; 
         }
 
