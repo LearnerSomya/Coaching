@@ -1,13 +1,13 @@
 import java.io.*;
 import java.util.*;
-import java.util.random.RandomGenerator;
+// import java.util.random.RandomGenerator;
 class ImplementRandTenUsingRandSeven {
     public static void main(String[] args) {
-        Random randomNumber = new Random();
-        for(int i = 0; i < 10; i++){
-            int result = randomeTen();
-            System.out.println(result);
-        }
+        // for(int i = 0; i < 10; i++){
+        //     int result = randomTen();
+        //     System.out.println(result);
+        // }
+        System.out.println(randomTen());
        
     }
     public static int randomTen(){
@@ -18,7 +18,7 @@ class ImplementRandTenUsingRandSeven {
         return notLessThanFourty % 10 + 1;
     }
     public static int randSeven(){
-        //return (int) (Math.random() * 7) + 1;
-        return new Random().nextInt(7) + 1;
+        return (int) (Math.random() * 7) + 1;
+        //return new Random().nextInt(7) + 1;
     }
 }
